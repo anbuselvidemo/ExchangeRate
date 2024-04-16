@@ -16,10 +16,15 @@ The parameters are defined in the .env file as below. This ensures that sensitiv
 
 
 `BASE_SYMBOL = "EUR"
+
 QUOTE_SYMBOL = "USD"
+
 INTERVAL = "1day"
+
 OUTPUT_SIZE = "30"
+
 API_KEY = "demo"
+
 URL = "https://api.twelvedata.com/time_series"`
 
 **API_KEY** needs to be replaced to work with other currencies. The _demo_ **API_KEY** only supports exchange rates for **EUR** vs **USD**.
